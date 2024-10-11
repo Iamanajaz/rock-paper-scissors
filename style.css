@@ -1,0 +1,39 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-size: large;
+  background-color: aqua;
+}
+h1{
+  
+  font-size: 26px;
+}
+#container {
+  height: 500px;
+}
+#buttons1{
+  margin: 10px 10px;
+}
+#result{
+  font-size: 20px;
+  font-family: 'Lucida Sans',sans-serif;
+  text-align: center;
+
+}
+
+button{
+
+  border-radius: 30px;
+  border: 2px solid white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  height: 70px;
+  width: 180px;
+  margin: 20px 20px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+}
