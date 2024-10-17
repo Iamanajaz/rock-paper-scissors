@@ -6,24 +6,27 @@
     <title>Game</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="userpoint"></div>
-  <div id="botpoint"></div>
-
-  <div class="container" id="container"> 
+  <div id="col">
+    <div id="userpoint"></div>
+    
+    <div class="container" id="container"> 
       
-    <div id="buttons1">
-      <center>
-        <button onclick="run(this.value)" id="ROCK" value="ROCK"><h1>ROCK</h1></button>
-        <button onclick="run(this.value)" id="PAPER" value="PAPER"><h1>PAPER</h1></button>
-        <button onclick="run(this.value)" id="SCISSORS" value="SCISSORS"><h1>SCISSORS</h1></button>
-        
-      </center>
+      <div id="buttons1">
+        <center>
+          <button onclick="run(this.value)" id="ROCK" value="ROCK"><h1>ROCK</h1></button>
+          <button onclick="run(this.value)" id="PAPER" value="PAPER"><h1>PAPER</h1></button>
+          <button onclick="run(this.value)" id="SCISSORS" value="SCISSORS"><h1>SCISSORS</h1></button>
+        </center>
+      </div>
+      <div id="result"></div>    
     </div>
-    <div id="result"></div>    
+    <div id="botpoint"></div>
   </div>  
-    
-    
 </body>
 </html>
