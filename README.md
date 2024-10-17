@@ -48,4 +48,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 - Thanks to online resources for guidance on JavaScript game development.
 
 ## Contact
-For any questions or feedback, please reach out to [your-email@example.com].
+For any questions or feedback, please reach out to amanajaz990@gmail.com 
